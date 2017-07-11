@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <style>
+  #main {
+    background: red;
+  }
+
+  #child {
+    height: 40px;
+    width: 80px;
+    background: yellow;
+  }
+
+  #child-2 {
+    height: 100px;
+    width: 100px;
+    background: green;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div id="main">
+
+    <div id="child" >
+      child
+    </div>
+
+    <div id="child-2">
+      child-2
+    </div>
+
+  </div>
+</body>
+
+<script type="text/javascript">
+  $("#main").on("click", function(eventObj) {
+    console.log(eventObj);
+    console.log('MAIN FIRED');
+    //$(eventObj.target).css("background-color", "black");
+  })
+
+  /*
+  $("#child").on("click", function(eventObj) {
+    console.log(eventObj);
+    console.log("CHILD FIRED");
+  });
+  */
+
+</script>
+</html>

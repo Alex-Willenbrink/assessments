@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Vlad",
+    "age": 26,
+    "email": "example_vlad@email.com",
+    "phone": 123123123
+  },
+  {
+    "name": "Bob",
+    "age": 32,
+    "email": "example_bob@email.com",
+    "phone": 123123124
+  },
+  {
+    "name": "Alice",
+    "age": 22,
+    "email": "example_alice@email.com",
+    "phone": 123123125
+  },
+  {
+    "name": "Jiggly Puff",
+    "age": 99,
+    "email": "example_puff@email.com",
+    "phone": 123123126
+  },
+  {
+    "name": "NaN",
+    "age": 0,
+    "email": "example_nan@email.com",
+    "phone": 0
+  }
+]
